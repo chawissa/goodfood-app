@@ -290,10 +290,6 @@ body {
   font-size: 3rem;
 }
 
-.header__logo-green {
-  color: #2ea32e;
-}
-
 .search {
   background-color: #fff;
   border-radius: 0.7rem;
@@ -410,7 +406,7 @@ body {
 .nav__btn svg {
   height: 2.4rem;
   width: 2.4rem;
-  fill: #333;
+  fill: #f38e82;
   margin-right: 0.7rem;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
@@ -962,3 +958,4 @@ body {
       justify-self: center;
 }
 /*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.a10e663f.css.map */

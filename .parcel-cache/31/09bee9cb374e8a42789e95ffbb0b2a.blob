@@ -290,8 +290,8 @@ body {
   font-size: 3rem;
 }
 
-.header__logo-green {
-  color: #2ea32e;
+.header-green {
+  color: green;
 }
 
 .search {
@@ -962,3 +962,4 @@ body {
       justify-self: center;
 }
 /*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.a10e663f.css.map */

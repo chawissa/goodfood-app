@@ -290,8 +290,8 @@ body {
   font-size: 3rem;
 }
 
-.header__logo-green {
-  color: #2ea32e;
+.header-green {
+  color: green;
 }
 
 .search {

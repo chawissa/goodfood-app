@@ -291,7 +291,7 @@ body {
 }
 
 .header__logo-green {
-  color: #2ea32e;
+  color: green;
 }
 
 .search {
