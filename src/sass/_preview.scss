@@ -13,6 +13,42 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 2rem;
+    font-size: 1.45rem;
+  }
+
+  &__name {
+    // color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 1rem 0 0;
+  }
+  &__link {
+    &:link,
+    &:visited {
+      text-align: center;
+      width: 13rem;
+      padding: 1rem 0;
+      transition: all 0.3s;
+      text-decoration: none;
+      color: #333;
+    }
+
+    &:hover {
+      background-color: $color-grey-light-1;
+      transform: translateY(-2px);
+    }
+
+    &--active {
+      background-color: $color-grey-light-1;
+    }
+  }
+
+  &__info {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.45rem;
+    letter-spacing: 0.05rem;
   }
 }
 

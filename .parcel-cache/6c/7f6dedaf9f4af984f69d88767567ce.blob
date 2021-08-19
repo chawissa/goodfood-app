@@ -512,41 +512,13 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 2rem;
-  font-size: 1.45rem;
 }
 
 .preview__name {
+  color: #333;
+  font-size: 1.45 rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin: 0 1rem 0 0;
-}
-
-.preview__link:link, .preview__link:visited {
-  text-align: center;
-  width: 13rem;
-  padding: 1rem 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-decoration: none;
-  color: #333;
-}
-
-.preview__link:hover {
-  background-color: #f9f5f3;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-
-.preview__link--active {
-  background-color: #f9f5f3;
-}
-
-.preview__info {
-  display: block;
-  margin-top: 1rem;
-  font-size: 1.45rem;
-  letter-spacing: 0.05rem;
 }
 
 .search-results {
@@ -924,3 +896,4 @@ img {
       justify-self: center;
 }
 /*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.a10e663f.css.map */

@@ -528,6 +528,7 @@ img {
   padding: 1rem 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  border-right: 1px solid #000;
   text-decoration: none;
   color: #333;
 }
@@ -543,10 +544,7 @@ img {
 }
 
 .preview__info {
-  display: block;
-  margin-top: 1rem;
   font-size: 1.45rem;
-  letter-spacing: 0.05rem;
 }
 
 .search-results {

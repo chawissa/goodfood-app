@@ -543,10 +543,7 @@ img {
 }
 
 .preview__info {
-  display: block;
-  margin-top: 1rem;
   font-size: 1.45rem;
-  letter-spacing: 0.05rem;
 }
 
 .search-results {

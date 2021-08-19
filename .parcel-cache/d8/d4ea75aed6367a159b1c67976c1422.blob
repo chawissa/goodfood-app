@@ -512,22 +512,21 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 2rem;
-  font-size: 1.45rem;
+  margin: 2rem 1rem 0 0;
 }
 
 .preview__name {
+  color: #333;
+  font-size: 1.45rem;
   font-weight: 600;
   text-transform: uppercase;
-  margin: 0 1rem 0 0;
 }
 
 .preview__link:link, .preview__link:visited {
-  text-align: center;
-  width: 13rem;
-  padding: 1rem 0;
+  padding: 1.5rem 3.25rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  border-right: 1px solid #fff;
   text-decoration: none;
   color: #333;
 }
@@ -540,13 +539,6 @@ img {
 
 .preview__link--active {
   background-color: #f9f5f3;
-}
-
-.preview__info {
-  display: block;
-  margin-top: 1rem;
-  font-size: 1.45rem;
-  letter-spacing: 0.05rem;
 }
 
 .search-results {

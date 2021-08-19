@@ -544,9 +544,8 @@ img {
 
 .preview__info {
   display: block;
-  margin-top: 1rem;
   font-size: 1.45rem;
-  letter-spacing: 0.05rem;
+  margin-top: 1rem;
 }
 
 .search-results {
@@ -924,3 +923,4 @@ img {
       justify-self: center;
 }
 /*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.a10e663f.css.map */
