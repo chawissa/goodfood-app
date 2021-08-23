@@ -589,7 +589,6 @@ img {
   padding: 3rem 5rem;
   background: #fff;
   left: 10%;
-  top: 3%;
   overflow: hidden;
   position: absolute;
   z-index: 1000;
@@ -751,3 +750,4 @@ img {
       justify-self: center;
 }
 /*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.a10e663f.css.map */
