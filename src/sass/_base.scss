@@ -40,57 +40,33 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color: #333;
-  background-color: #fff;
+  color: $color-grey-dark-1;
+  background-color: #e7e6e2;
   // background-image: $gradient;
   // background-size: cover;
   // background-repeat: no-repeat;
-  // min-height: calc(100vh - 2 * 4vw);
+  min-height: calc(100vh - 2 * 4vw);
 }
-
-// section {
-//   min-height: 100vh;
-//   width: 100%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   // background-color: yellow;
-//   padding: 10rem 0;
-// }
 
 .container {
-  // min-height: 80vh;
-  width: 90%;
-  height: auto;
-  max-width: 160rem;
-  margin: 15rem auto;
-  // background-color: red;
+  max-width: 120rem;
+  min-height: 117rem;
+  margin: 4vw auto;
+  background-color: #fff;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0 2rem 6rem 0.5rem rgba($color-grey-dark-1, 0.2);
+
+  display: grid;
+  grid-template-rows: 10rem minmax(100rem, auto);
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "head head"
+    "list recipe";
+
+  @media only screen and (max-width: $bp-large) {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
 }
-
-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-// .container {
-//   max-width: 120rem;
-//   min-height: 117rem;
-//   margin: 1rem auto;
-//   background-color: #fff;
-//   // border-radius: 9px;
-//   overflow: hidden;
-//   // box-shadow: 0 2rem 6rem 0.5rem rgba($color-grey-dark-1, 0.2);
-
-//   display: grid;
-//   grid-template-rows: 10rem minmax(100rem, auto);
-//   grid-template-columns: 1fr 2fr;
-//   grid-template-areas:
-//     "head head"
-//     "list recipe";
-
-//   @media only screen and (max-width: $bp-large) {
-//     max-width: 100%;
-//     margin: 0;
-//     border-radius: 0;
-//   }
-// }
