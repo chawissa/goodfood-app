@@ -43,8 +43,8 @@ body {
   color: $color-grey-dark-1;
   background-color: #e7e6e2;
   // background-image: $gradient;
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: calc(100vh - 2 * 4vw);
 }
 
