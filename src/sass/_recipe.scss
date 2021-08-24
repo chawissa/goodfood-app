@@ -17,12 +17,13 @@
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(
-        to right bottom,
-        $color-grad-1,
-        $color-grad-2
-      );
-      opacity: 0.6;
+      background-color: rgba(66, 65, 65, 0.2);
+      // background-image: linear-gradient(
+      //   to right bottom,
+      //   $color-grad-1,
+      //   $color-grad-2
+      // );
+      // opacity: 0.6;
     }
   }
 
@@ -37,7 +38,8 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%, 20%) skewY(-6deg);
+    transform: translate(-50%, 50%);
+    // skewY(-6deg);
     color: #fff;
     font-weight: 700;
     font-size: 3.25rem;
@@ -50,11 +52,12 @@
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone;
       padding: 1.3rem 2rem;
-      background-image: linear-gradient(
-        to right bottom,
-        $color-grad-1,
-        $color-grad-2
-      );
+      background-color: #333;
+      // background-image: linear-gradient(
+      //   to right bottom,
+      //   $color-grad-1,
+      //   $color-grad-2
+      // );
     }
 
     @media only screen and (max-width: $bp-medium) {
