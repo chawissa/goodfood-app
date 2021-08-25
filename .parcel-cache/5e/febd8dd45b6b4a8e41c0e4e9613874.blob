@@ -271,25 +271,7 @@ body {
   }
 }
 
-.message {
-  margin: 0 auto;
-  padding: 5rem 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.message p {
-  margin-left: 1.5rem;
-  font-size: 4rem;
-  line-height: 1.5;
-  text-transform: uppercase;
-  color: #fff;
-  top: 40%;
-  position: absolute;
-}
-
-.bookmarks__message,
+.message,
 .error {
   max-width: 40rem;
   margin: 0 auto;
@@ -299,22 +281,15 @@ body {
   display: flex;
 }
 
-.bookmarks__message svg,
-.error svg {
-  height: 3rem;
-  width: 3rem;
-  fill: #f38e82;
-  -webkit-transform: translateY(-0.3rem);
-          transform: translateY(-0.3rem);
-}
-
-.bookmarks__message p,
+.message p,
 .error p {
   margin-left: 1.5rem;
-  font-size: 1.8rem;
+  font-size: 4rem;
   line-height: 1.5;
-  font-weight: 600;
-  color: #333;
+  text-transform: uppercase;
+  color: #fff;
+  top: 40%;
+  position: absolute;
 }
 
 .header {
@@ -679,7 +654,7 @@ body {
 }
 
 .recipe {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/cover3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("c503222ed4060c41cbc844f4189eea2a");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
