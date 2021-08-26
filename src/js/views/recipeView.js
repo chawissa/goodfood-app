@@ -30,7 +30,6 @@ class RecipeView {
   };
 
   #generateMarkup() {
-    console.log(this.data);
     return `
     <figure class="recipe__fig">
       <img src="${this.#data.image}" alt="${
