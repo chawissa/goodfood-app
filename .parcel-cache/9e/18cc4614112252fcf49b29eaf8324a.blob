@@ -494,8 +494,7 @@ const controlRecipes = async function () {
   } catch (err) {
     alert(err);
   }
-}; // Implement Publisher-Subscriber Pattern
-
+};
 
 const init = function () {
   _recipeView.default.addHandlerRender(controlRecipes);
