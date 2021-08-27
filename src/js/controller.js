@@ -22,11 +22,11 @@ const controlRecipes = async function () {
     // 2. Rendering recipe
     recipeView.render(model.state.recipe);
   } catch (err) {
-    alert(err);
+    recipeView.renderError();
   }
 };
 
-// Implement Publisher-Subscriber Pattern
+// Publisher-Subscriber Pattern - Event is listened for in addHandlerRender(publisher) but handled here
 const init = function () {
   recipeView.addHandlerRender(controlRecipes);
 };
