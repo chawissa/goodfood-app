@@ -499,9 +499,7 @@ const controlRecipes = async function () {
 
 const controlSearchResults = async function () {
   try {
-    _resultsView.default.renderSpinner(); // 1. Get search query
-
-
+    // 1. Get search query
     const query = _searchView.default.getQuery();
 
     if (!query) return; // 2. Load search results
@@ -5925,27 +5923,6 @@ class ResultsView extends _View.default {
     super(...args);
 
     _defineProperty(this, "_parentElement", document.querySelector(".results"));
-  }
-
-  _generateMarkup() {
-    return `
-      <li class="preview">
-        <a class="preview__link preview__link--active" href="#23456">
-          <figure class="preview__fig">
-            <img src="src/img/test-1.jpg" alt="Test" />
-          </figure>
-          <div class="preview__data">
-            <h4 class="preview__title">Pasta with Tomato Cream ...</h4>
-            <p class="preview__publisher">The Pioneer Woman</p>
-            <div class="preview__user-generated">
-              <svg>
-                <use href="src/img/icons.svg#icon-user"></use>
-              </svg>
-            </div>
-          </div>
-        </a>
-      </li>
-    `;
   }
 
 }
