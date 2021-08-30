@@ -196,7 +196,7 @@ body {
 .btn--tiny svg {
   height: 100%;
   width: 100%;
-  fill: #000;
+  fill: #333;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -206,7 +206,7 @@ body {
 }
 
 .btn--tiny:hover svg {
-  fill: #f48982;
+  fill: #2ea32e;
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
 }

@@ -135,7 +135,7 @@
     height: 100%;
     width: 100%;
     // fill: $color-primary;
-    fill: #000;
+    fill: #333;
     transition: all 0.3s;
   }
 
@@ -144,7 +144,7 @@
   }
 
   &:hover svg {
-    fill: $color-grad-2;
+    fill: #2ea32e;
     transform: translateY(-1px);
   }
 

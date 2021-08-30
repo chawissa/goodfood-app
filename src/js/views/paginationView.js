@@ -20,7 +20,6 @@ class PaginationView extends View {
     const numOfPages = Math.ceil(
       this._data.results.length / this._data.resultsPerPage
     );
-    console.log(numOfPages);
 
     const previousButton = `
       <button data-goto="${
