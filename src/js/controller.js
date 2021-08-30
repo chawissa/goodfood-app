@@ -36,11 +36,11 @@ const controlSearchResults = async function () {
 
     // 3. Render results
     console.log(model.state.search.results);
+    resultsView.render(model.state.search.results);
   } catch (err) {
     console.log(err);
   }
 };
-controlSearchResults();
 
 // Publisher-Subscriber Pattern - Event is listened for in addHandlerRender(publisher) and addHandlerSearch(publisher) but handled here
 const init = function () {

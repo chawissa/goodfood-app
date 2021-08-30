@@ -561,9 +561,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#fbdb89), to(#f48982));
-  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
-  opacity: 0.4;
+  background-color: rgba(66, 65, 65, 0.3);
 }
 
 .preview__fig img {
@@ -591,7 +589,7 @@ body {
 .preview__title {
   grid-column: 1/-1;
   font-size: 1.45rem;
-  color: #f38e82;
+  color: #333;
   text-transform: uppercase;
   font-weight: 600;
   text-overflow: ellipsis;
@@ -628,7 +626,7 @@ body {
 .preview__user-generated svg {
   height: 1.2rem;
   width: 1.2rem;
-  fill: #f38e82;
+  fill: #333;
 }
 
 .search-results {
