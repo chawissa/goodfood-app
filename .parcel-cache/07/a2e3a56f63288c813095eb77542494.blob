@@ -514,7 +514,7 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query); // 3. Render results
     // resultsView.render(model.state.search.results);
 
-    _resultsView.default.render(model.getSearchResultsPage(1)); // 4. Render initial pagination buttons
+    _resultsView.default.render(model.getSearchResultsPage(2)); // 4. Render initial pagination buttons
 
 
     _paginationView.default.render(model.state.search);
@@ -6003,20 +6003,10 @@ class PaginationView extends _View.default {
 
     if (this._data.page === 1 && numOfPages > 1) {
       return "page 1, others";
-    } // Last page
-
-
-    if (this._data.page === numOfPages && numOfPages > 1) {
-      return "last page";
-    } // Other page
-
-
-    if (this._data.page < numOfPages) {
-      return "other page";
     } // Page 1 and there are no other pages
+    // Last page
+    // Other page
 
-
-    return "only 1 page";
   }
 
 }
