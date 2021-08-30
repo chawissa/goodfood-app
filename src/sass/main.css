@@ -524,8 +524,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 1.5rem 3.25rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
   border-right: 1px solid #fff;
   text-decoration: none;
 }
