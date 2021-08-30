@@ -303,7 +303,7 @@ body {
 .error svg {
   height: 3rem;
   width: 3rem;
-  fill: #f38e82;
+  fill: #333;
   -webkit-transform: translateY(-0.3rem);
           transform: translateY(-0.3rem);
 }
