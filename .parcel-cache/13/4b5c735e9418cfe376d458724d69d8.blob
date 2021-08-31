@@ -674,7 +674,7 @@ body {
 }
 
 .recipe {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/cover3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("cover3.cd55347e.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -709,10 +709,9 @@ body {
 
 .recipe__title {
   position: absolute;
-  bottom: 15%;
   left: 50%;
-  -webkit-transform: translate(-50%, 30%);
-          transform: translate(-50%, 30%);
+  -webkit-transform: translate(-50%, -5%);
+          transform: translate(-50%, -5%);
   color: #fff;
   font-weight: 700;
   font-size: 3.25rem;
@@ -1003,3 +1002,4 @@ body {
       justify-self: center;
 }
 /*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.a10e663f.css.map */

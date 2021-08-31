@@ -674,7 +674,7 @@ body {
 }
 
 .recipe {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/cover3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("c503222ed4060c41cbc844f4189eea2a");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -709,10 +709,10 @@ body {
 
 .recipe__title {
   position: absolute;
-  bottom: 15%;
+  bottom: 1%;
   left: 50%;
-  -webkit-transform: translate(-50%, 30%);
-          transform: translate(-50%, 30%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   color: #fff;
   font-weight: 700;
   font-size: 3.25rem;
