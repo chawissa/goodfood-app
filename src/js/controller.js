@@ -63,7 +63,8 @@ const controlServings = function (newServings) {
   model.updateServings(newServings);
 
   // Update the recipe view
-  recipeView.render(model.state.recipe);
+  // recipeView.render(model.state.recipe);
+  recipeView.update(model.state.recipe);
 };
 
 // Publisher-Subscriber Pattern - Event is listened for in addHandlerRender(publisher) and addHandlerSearch(publisher) but handled here

@@ -6630,15 +6630,12 @@ class View {
     const currentElements = Array.from(this._parentElement.querySelectorAll("*"));
     newElements.forEach((newEl, i) => {
       const currentEl = currentElements[i];
-      console.log(currentEl, newEl.isEqualNode(currentEl)); // Updates changed TEXT
+      console.log(currentEl, newEl.isEqualNode(currentEl));
 
-      if (!newEl.isEqualNode(currentEl) && newEl.firstChild?.nodeValue.trim() !== "") {
-        // console.log("**", newEl.firstChild.nodeValue.trim());
+      if (!newEl.isEqualNode(currentEl) && newEl.firstChild.nodeValue.trim() !== "") {
+        console.log("**", newEl.firstChild.nodeValue.trim());
         currentEl.textContent = newEl.textContent;
-      } // Updates changed ATTRIBUTES
-
-
-      if (!newEl.isEqualNode(currentEl)) Array.from(newEl.attributes).forEach(attribute => currentEl.setAttribute(attribute.name, attribute.value));
+      }
     });
   }
 

@@ -6638,7 +6638,8 @@ class View {
       } // Updates changed ATTRIBUTES
 
 
-      if (!newEl.isEqualNode(currentEl)) Array.from(newEl.attributes).forEach(attribute => currentEl.setAttribute(attribute.name, attribute.value));
+      if (!newEl.isEqualNode(currentEl)) ;
+      Array.from(newEl.attributes).forEach(attribute => currentEl.setAttribute(attribute.name, attribute.value));
     });
   }
 
