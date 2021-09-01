@@ -15,9 +15,6 @@ export default class View {
   }
 
   update(data) {
-    if (!data || (Array.isArray(data) && data.length === 0))
-      return this.renderError();
-
     this._data = data;
     const newMarkup = this._generateMarkup();
 
@@ -29,7 +26,7 @@ export default class View {
 
     newElements.forEach((newEl, i) => {
       const currentEl = currentElements[i];
-      console.log(currentEl, newEl.isEqualNode(currentEl));
+      // console.log(currentEl, newEl.isEqualNode(currentEl));
 
       // Updates changed TEXT
       if (
