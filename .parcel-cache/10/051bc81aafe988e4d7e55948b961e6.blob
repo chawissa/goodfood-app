@@ -578,7 +578,7 @@ const controlAddRecipe = async function (newRecipe) {
     _recipeView.default.render(model.state.recipe); // Success message
 
 
-    _addRecipeView.default.renderMessage(); // Close modal form
+    _addRecipeView.default.renderError(); // Close modal form
 
 
     setTimeout(function () {

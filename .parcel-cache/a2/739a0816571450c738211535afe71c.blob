@@ -6861,8 +6861,6 @@ class View {
 
     this._clear();
 
-    this._parentElement.style.background = "none";
-
     this._parentElement.insertAdjacentHTML("afterbegin", markup);
   }
 
