@@ -2,11 +2,17 @@
   padding: 3rem 0;
   display: flex;
   flex-direction: column;
+  // grid-area: list;
 }
 
 .results {
   list-style: none;
   margin-bottom: 2rem;
+
+  // @media (max-width: 1080px) {
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  // }
 }
 
 .pagination {
