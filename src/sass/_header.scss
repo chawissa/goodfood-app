@@ -1,7 +1,6 @@
 .header {
   grid-area: head;
-  // background-color: $color-grey-light-1;
-  background-color: #fff;
+  background-color: $color-white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,7 +15,7 @@
 }
 
 .search {
-  background-color: #fff;
+  background-color: $color-white;
   border-radius: 0.7rem;
   box-shadow: 0 0.7rem 3rem rgba(0, 0, 0, 0.2);
   display: flex;
@@ -48,7 +47,7 @@
       width: auto;
 
       &::placeholder {
-        color: white;
+        color: $color-white;
       }
     }
   }
