@@ -40,7 +40,7 @@
     }
 
     &::placeholder {
-      color: $color-grey-light-3;
+      color: $color-gray-light-3;
     }
 
     @media only screen and (max-width: $bp-medium) {
@@ -102,7 +102,7 @@
     }
 
     &:hover {
-      background-color: $color-grey-light-2;
+      background-color: $color-gray-light-2;
     }
   }
 }
@@ -114,8 +114,8 @@
   right: -2.5rem;
   z-index: 10;
   width: 40rem;
-  background-color: #fff;
-  box-shadow: 0 0.8rem 5rem 2rem rgba($color-grey-dark-1, 0.1);
+  background-color: $color-white;
+  box-shadow: 0 0.8rem 5rem 2rem rgba($color-gray-dark-1, 0.1);
 
   visibility: hidden;
   opacity: 0;
@@ -135,7 +135,7 @@
     transition: all 0.3s;
 
     &:hover {
-      background-color: $color-grey-light-2;
+      background-color: $color-gray-light-2;
     }
   }
 

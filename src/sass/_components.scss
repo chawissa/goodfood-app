@@ -1,9 +1,9 @@
 %btn {
-  background-color: #2ea32e;
+  background-color: $color-green;
   border-radius: 0.7rem;
   border: none;
   text-transform: uppercase;
-  color: #fff;
+  color: $color-white;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -56,12 +56,12 @@
 }
 
 .btn--inline {
-  color: #333;
+  color: $color-gray-dark-3;
   font-size: 1.3rem;
   font-weight: 600;
   border: 2px solid transparent;
   border-radius: 0.7rem;
-  background-color: #fff;
+  background-color: $color-white;
   padding: 0.8rem 1.2rem;
   cursor: pointer;
 
@@ -81,7 +81,7 @@
   }
 
   &:hover {
-    border: 2px solid #333;
+    border: 2px solid $color-gray-dark-3;
   }
 
   &:focus {
@@ -90,7 +90,7 @@
 }
 
 .btn--round {
-  background-color: #333;
+  background-color: $color-gray-dark-3;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -113,7 +113,7 @@
   svg {
     height: 2.5rem;
     width: 2.5rem;
-    fill: #fff;
+    fill: $color-white;
   }
 }
 
@@ -127,7 +127,7 @@
   svg {
     height: 100%;
     width: 100%;
-    fill: #333;
+    fill: $color-gray-dark-3;
     transition: all 0.3s;
   }
 
@@ -136,12 +136,12 @@
   }
 
   &:hover svg {
-    fill: #2ea32e;
+    fill: $color-green;
     transform: translateY(-1px);
   }
 
   &:active svg {
-    fill: $color-grad-2;
+    fill: $color-green;
     transform: translateY(0);
   }
 
@@ -153,16 +153,15 @@
 .heading--2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #333;
+  color: $color-gray-dark-3;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
   text-align: center;
-  // transform: skewY(-3deg);
 }
 
 .link:link,
 .link:visited {
-  color: $color-grey-dark-2;
+  color: $color-gray-dark-2;
 }
 
 .spinner {
@@ -172,7 +171,7 @@
   svg {
     height: 6rem;
     width: 6rem;
-    fill: #333;
+    fill: $color-gray-dark-3;
     animation: rotate 2s infinite linear;
   }
 }
@@ -197,7 +196,7 @@
     font-size: 4rem;
     line-height: 1.5;
     text-transform: uppercase;
-    color: #333;
+    color: $color-gray-dark-3;
     top: 40%;
     position: absolute;
   }
@@ -213,7 +212,7 @@
   svg {
     height: 3rem;
     width: 3rem;
-    fill: #333;
+    fill: $color-gray-dark-3;
     transform: translateY(-0.3rem);
   }
 
@@ -222,6 +221,6 @@
     font-size: 1.8rem;
     line-height: 1.5;
     font-weight: 600;
-    color: #333;
+    color: $color-gray-dark-3;
   }
 }
