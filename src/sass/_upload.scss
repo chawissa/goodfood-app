@@ -4,7 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100rem;
-  background-color: white;
+  background-color: $color-white;
   border-radius: 9px;
 
   padding: 5rem 6rem;
@@ -67,13 +67,13 @@
       transition: all 0.2s;
 
       &::placeholder {
-        color: $color-grey-light-3;
+        color: $color-gray-light-3;
       }
 
       &:focus {
         outline: none;
-        border: 1px solid $color-primary;
-        background-color: $color-grey-light-1;
+        border: 1px solid $color-green;
+        background-color: $color-gray-light-1;
       }
     }
 
