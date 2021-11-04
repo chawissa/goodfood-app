@@ -1,7 +1,5 @@
 %btn {
-  // background-image: $gradient;
   background-color: #2ea32e;
-  // background-color: #f3cc61;
   border-radius: 0.7rem;
   border: none;
   text-transform: uppercase;
@@ -64,8 +62,6 @@
   border: 2px solid transparent;
   border-radius: 0.7rem;
   background-color: #fff;
-  // background-color: #2ea32e;
-  // background-color: #f3cc61;
   padding: 0.8rem 1.2rem;
   cursor: pointer;
 
@@ -94,15 +90,12 @@
 }
 
 .btn--round {
-  // background-image: $gradient;
   background-color: #333;
-  // background-color: #f3cc61;
   border-radius: 50%;
   border: none;
   cursor: pointer;
   height: 4.5rem;
   width: 4.5rem;
-  // margin-left: auto;
   transition: all 0.2s;
 
   display: flex;
@@ -134,7 +127,6 @@
   svg {
     height: 100%;
     width: 100%;
-    // fill: $color-primary;
     fill: #333;
     transition: all 0.3s;
   }
